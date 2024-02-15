@@ -1,0 +1,113 @@
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 38% 58%;
+    gap: 12%;
+    margin-bottom: 4rem;
+}
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--secondary-color);
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+/* ==============FORM================*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+    resize: none;
+    color: var(--color-white);
+}
+
+
+/* ==========SUCCESS POPUP========== */
+.success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-primary);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.success-popup p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.success-popup button {
+    border: 1px solid var(--color-bg-variant);
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.success-popup button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.popup__icon {
+    font-size: 3.5rem;
+} 
+
+
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+
+/* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
+}
