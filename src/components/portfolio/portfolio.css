@@ -24,7 +24,6 @@
     height: 18rem;
     border-radius: 1.5rem;
     overflow: hidden;
-    margin: 0 auto;
 }
 
 .portfolio__item h3 {
@@ -35,6 +34,7 @@
     display: flex;
     gap: 1.5rem;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 
@@ -43,12 +43,17 @@
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.3rem;
-        margin: 1rem;
     }
 
     .portfolio__item-image {
         width: 20rem;
         height: 15rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__container {
+        margin: 0.8rem;
     }
 }
 
@@ -58,5 +63,6 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        margin: 1.25rem;
     }
 }
