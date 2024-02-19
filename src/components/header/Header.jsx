@@ -27,11 +27,11 @@ const Header = () => {
           A
           <span>
             <Typewriter
-              words={[" Front-End Developer ", " UX Designer."]}
+              words={[" Front-End Developer ", " UX Designer", " Freelancer "]}
               loop
               cursor
               cursorStyle="|"
-              typeSpeed={100}
+              typeSpeed={150}
               deleteSpeed={50}
               delaySpeed={1500}
               onLoopDone={handleDone}

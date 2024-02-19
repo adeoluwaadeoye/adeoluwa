@@ -176,6 +176,9 @@ body.active-modal {
         padding: 20px 10px;
         margin-right: 10px;
     }
+    .modal__icon {
+        margin: 1rem;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
