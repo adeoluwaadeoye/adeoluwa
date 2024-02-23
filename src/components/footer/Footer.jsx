@@ -47,7 +47,11 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://github.com/CodeWhirl" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/adeoluwaadeoye"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
         <a
@@ -58,14 +62,14 @@ const Footer = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.twitter.com/codewhirl"
+          href="https://www.twitter.com/adeoluwatweets"
           target="_blank"
           rel="noreferrer"
         >
           <FaXTwitter />
         </a>
         <a
-          href="https://www.tiktok.com/@codewhirl"
+          href="https://www.tiktok.com/@adeoluwa_codes?_t=8k8AytweAI2&_r=1"
           target="_blank"
           rel="noreferrer"
         >

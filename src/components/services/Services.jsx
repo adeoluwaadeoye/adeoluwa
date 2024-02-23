@@ -37,8 +37,8 @@ const Services = () => {
         const updateCounter = () => {
           const count = Number($counter.innerText);
           if (count < target) {
-            $counter.innerText = `+${Math.ceil(count + increment)}`;
-            setTimeout(updateCounter, 20);
+            $counter.innerText = `${Math.ceil(count + increment)}`;
+            setTimeout(updateCounter, 50);
           }
         };
 
@@ -290,14 +290,6 @@ const Services = () => {
                       Execute visually impactful web development projects
                     </p>
                   </li>
-
-                  <li className="services__modal-service">
-                    <LuCode2 className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Design cohesive brand identities for a strong visual
-                      presence
-                    </p>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -319,19 +311,19 @@ const Services = () => {
 
           {/* Counter 2 */}
           <div className="counter__item">
-            <div className="counter" data-target="60"></div>
+            <div className="counter" data-target="30"></div>
             <small className="counter__text">Satisfied Customers</small>
           </div>
 
           {/* Counter 3 */}
           <div className="counter__item">
-            <div className="counter" data-target="115"></div>
+            <div className="counter" data-target="45"></div>
             <small className="counter__text">Design Items</small>
           </div>
 
           {/* Counter 4 */}
           <div className="counter__item">
-            <div className="counter" data-target="200"></div>
+            <div className="counter" data-target="75"></div>
             <small className="counter__text">Clients served</small>
           </div>
         </div>

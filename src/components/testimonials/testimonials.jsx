@@ -26,7 +26,7 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: "Koiki Yusuf",
+    name: "Adeshina Adeoye",
     review:
       "Working with Adeoluwa team was an excellent experience! He exceeded my expectations. The attention to detail and dedication to delivering quality work were impressive. I look forward to collaborating with them again in the future.",
   },

@@ -40,4 +40,12 @@
     .modal-blog.modal .modal-content {
         margin-bottom: 20%;
     }
+
 }
+
+@media (max-width: 576px) {
+    .blog__container .arrow {
+        display: flex;
+        top: 88%;
+    }
+} 

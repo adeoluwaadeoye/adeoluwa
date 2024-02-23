@@ -14,7 +14,7 @@ const HeaderSocial = () => {
         <FaLinkedin />
       </a>
       <a
-        href="https://www.github.com/CodeWhril1"
+        href="https://www.github.com/adeoluwaadeoye"
         target="_blank"
         rel="noreferrer"
       >
