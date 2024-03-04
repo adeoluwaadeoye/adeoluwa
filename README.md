@@ -2,6 +2,11 @@
 
 Welcome to my professional portfolio repository!
 
+## Portfolio Links
+
+- **Live Site:** [Visit Website](https://adeoluwaadeoye.netlify.app/)
+- **GitHub Repository:** [View on GitHub](https://github.com/adeoluwaadeoye/adeoluwa/)
+
 ## Overview
 
 This repository hosts the source code for my professional portfolio website. It serves as a comprehensive showcase of my skills, projects, and experiences in Front-End Development. The portfolio is meticulously crafted to provide visitors with insights into my expertise, work history, and accomplishments.
@@ -42,5 +47,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For inquiries or collaborations, feel free to reach out to me at [adeoluadeoye7@gmail.com].
-
+For inquiries or collaborations, feel free to reach out to me at adeoluadeoye7@gmail.com
