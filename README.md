@@ -35,11 +35,8 @@ To view the portfolio locally on your machine, follow these steps:
 2. Navigate to the project directory: `cd adeoluwa`
 3. Open `index.html` in your preferred web browser.
 
-## Screenshots
-
-![Homepage](screenshots/homepage.png)
-![Projects](screenshots/projects.png)
-![Contact Form](screenshots/contact-form.png)
+## Demo Images
+<img src="https://adeoluwaadeoye.netlify.app/static/media/me.b248d14344bffd93c51f.png" width="400">
 
 ## License
 
