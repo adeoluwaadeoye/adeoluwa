@@ -36,7 +36,7 @@ To view the portfolio locally on your machine, follow these steps:
 3. Open `index.html` in your preferred web browser.
 
 ## Demo Images
-<img src="https://adeoluwaadeoye.netlify.app/static/media/me.b248d14344bffd93c51f.png" width="400">
+<img src="https://adeoluwaadeoye.netlify.app/">
 
 ## License
 
