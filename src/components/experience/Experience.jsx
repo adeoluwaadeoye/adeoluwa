@@ -101,7 +101,7 @@ const Experience = () => {
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>UI/UX Design Principles</h4>
+                  <h4>UI/UX Design</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </div>

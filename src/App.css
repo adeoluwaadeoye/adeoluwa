@@ -94,8 +94,8 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--secondary-color);
-  padding: 0.75rem 1.2rem;
+  color: var(--color-primary);
+  padding: 0.75rem 1.5rem;
   cursor: pointer;
   border: 1px solid var(--secondary-color);
   transition: var(--transition);
