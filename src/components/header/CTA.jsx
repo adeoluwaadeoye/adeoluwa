@@ -13,7 +13,7 @@ const CTA = () => {
           <CiLocationArrow1 className="header__icon" />
         </span>
       </a>
-      <a href={CV} download className="btn">
+      <a href={CV} download="Adeoluwa's CV" className="btn">
         <span>Download CV</span>
         <span>
           <GoDownload className="header__icon" />
