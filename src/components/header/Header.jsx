@@ -50,7 +50,7 @@ const Header = () => {
           />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <a href="#blog" className="scroll__down">
           Scroll Down
         </a>
       </div>

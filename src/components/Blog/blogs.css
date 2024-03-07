@@ -16,6 +16,7 @@
     height: 300px;
     overflow: hidden;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .blog__container img {
@@ -105,7 +106,7 @@ body.active-modal {
     max-width: 85%;
     min-width: 60%;
     z-index: 9999;
-    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    box-shadow: 0 2px 8px var(--color-primary);
     padding: 50px;
     border-radius: 10px;
 }
@@ -145,6 +146,7 @@ body.active-modal {
     border-radius: 50%;
     padding: 0 0;
     font-size: 20px;
+    cursor: pointer;
 }
 
 

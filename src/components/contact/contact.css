@@ -37,6 +37,14 @@
     font-size: 0.8rem;
 }
 
+.contact__option h5 {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: capitalize !important;
+}
+
 /* ==============FORM================*/
 form {
     display: flex;

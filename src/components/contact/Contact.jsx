@@ -17,7 +17,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>adeoluadeoye7@gmail.com</h5>
+            <h5 className="lowercase">adeoluadeoye7@gmail.com</h5>
             <a
               href="mailto:adeoluadeoye7@gmail.com"
               target="_blank"
@@ -30,7 +30,7 @@ const Contact = () => {
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>Adeoluwa Adeoye</h5>
+            <h5 className="uppercase">Adeoluwa Adeoye</h5>
             <a
               href="https://m.me/adeoluwa.adeoye.90"
               target="_blank"
