@@ -116,7 +116,7 @@ body.active-modal {
 }
 
 .modal-text h1 {
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     font-size: 30px;
     color: var(--color-primary);
 }
@@ -161,6 +161,10 @@ body.active-modal {
 
     .modal .modal-img {
         margin: 50px 0 50px 0;
+    }
+
+    .modal-text h1 {
+        font-size: 1.5rem;
     }
 
     .modal-content {
