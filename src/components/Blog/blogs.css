@@ -43,8 +43,8 @@
 
 .blog__container .arrow {
     position: absolute;
-    right: 30px;
-    bottom: 11%;
+    right: 10px;
+    bottom: 7%;
     opacity: 1;
     transition: 0.5s;
 }
@@ -57,6 +57,7 @@
     font-size: 18px;
     transition: 0.5s;
     padding-bottom: 30px;
+    margin: 0 2rem 0 0;
 }
 
 
