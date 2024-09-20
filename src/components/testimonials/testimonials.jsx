@@ -3,7 +3,7 @@ import "./testimonials.css";
 
 import avatar1 from "../../assets/avatar1.jpg";
 import avatar2 from "../../assets/avatar2.jpg";
-// import avatar3 from "../../assets/avatar3.jpg";
+import avatar3 from "../../assets/avatar3.jpg";
 // import avatar4 from "../../assets/avatar4.jpg";
 
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -30,20 +30,13 @@ const data = [
     review:
       "Working with Adeoluwa team was an excellent experience! He exceeded my expectations. The attention to detail and dedication to delivering quality work were impressive. I look forward to collaborating with them again in the future.",
   },
-  // {
-  //   id: 3,
-  //   avatar: avatar3,
-  //   name: "Bob Johnson",
-  //   review:
-  //     "I'm extremely satisfied with the services provided by this team. Their professionalism and efficiency stood out throughout the project. I will definitely choose them for my future projects and recommend them to others seeking reliable and high-quality solutions.",
-  // },
-  // {
-  //   id: 4,
-  //   avatar: avatar4,
-  //   name: "Eva Davis",
-  //   review:
-  //     "Kudos to the team for a job well done! Their quick turnaround, attention to detail, and commitment to delivering superb quality were impressive. I'm more than pleased with the results and will gladly work with them again.",
-  // },
+  {
+    id: 3,
+    avatar: avatar3,
+    name: "Yusuf Koiki",
+    review:
+      "I'm extremely satisfied with the services provided by this team. Their professionalism and efficiency stood out throughout the project. I will definitely choose them for my future projects and recommend them to others seeking reliable and high-quality solutions.",
+  },
 ];
 
 const Testimonials = () => {
