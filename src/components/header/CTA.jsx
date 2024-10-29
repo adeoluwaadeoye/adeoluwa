@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/cv1.pdf";
 import {CiLocationArrow1} from "react-icons/ci";
 import {GoDownload} from "react-icons/go";
 import "./header.css";
@@ -13,7 +13,7 @@ const CTA = () => {
           <CiLocationArrow1 className="header__icon" />
         </span>
       </a>
-      <a href={CV} download="Adeoluwa's CV" className="btn">
+      <a href={CV} download="CV" className="btn">
         <span>Download CV</span>
         <span>
           <GoDownload className="header__icon" />
