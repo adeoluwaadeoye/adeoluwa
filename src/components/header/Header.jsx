@@ -2,43 +2,21 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import {Typewriter} from "react-simple-typewriter";
-
 const Header = () => {
-  // Placeholder function for when typing is done
-  const handleDone = () => {
-    // Your code for when typing is done
-  };
-
-  // Placeholder function for when each character is typed
-  const handleType = (text) => {
-    // Your code for when each character is typed
-  };
-
   return (
     <header id="home">
       <div className="container header__container">
         <h3>
+          Hi, I'm <br />
           <span className="my__name">
             Adeoluwa Adeoye <span className="wave">👋</span>
           </span>
         </h3>
-        <h2>
-          A
-          <span>
-            <Typewriter
-              words={[" Front-End Developer ", " UX Designer", " Freelancer "]}
-              loop
-              cursor
-              cursorStyle="|"
-              typeSpeed={150}
-              deleteSpeed={50}
-              delaySpeed={1500}
-              onLoopDone={handleDone}
-              onType={handleType}
-            />
-          </span>
-        </h2>
+        <small className="text-light">
+          Frontend Developer & UX Designer, shaping seamless digital
+          experiences.
+        </small>
+
         <CTA />
         <HeaderSocials />
 
@@ -50,7 +28,7 @@ const Header = () => {
           />
         </div>
 
-        <a href="#blog" className="scroll__down">
+        <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
       </div>

@@ -43,14 +43,18 @@ header {
 /* ================== ME =================== */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 25rem;
-    height: 30rem;
+    width: 24rem;
+    height: 25rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(49.5% - 11rem);
     margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: -5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me .img {
+    width: 400px;
 }
 
 /* ==================SCROLL DOWN =================== */
@@ -100,7 +104,7 @@ header {
 
     .me {
         background: linear-gradient(var(--color-primary), transparent);
-        left: calc(50% - 12.5rem);
+        left: calc(49.7% - 11.9rem);
     }
         .wave {
             font-size: 2.3rem;

@@ -1,25 +1,15 @@
 import React from "react";
 import "./footer.css";
-import {FaGithub} from "react-icons/fa";
-import {FaFacebookF} from "react-icons/fa6";
-import {FaLinkedin} from "react-icons/fa";
-import {FaXTwitter} from "react-icons/fa6";
-import {FaTiktok} from "react-icons/fa6";
+import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaFacebookF, FaXTwitter, FaTiktok} from "react-icons/fa6";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        <div className="me_">
-          <img
-            width={120}
-            height={140}
-            src={require("../../assets/me.png")}
-            alt="my_picture"
-            className="img"
-          />
-          ADEOLUWA
-        </div>
+        <div className="me_">ADEOLUWA ADEOYE</div>
       </a>
 
       <ul className="permalinks">
@@ -85,7 +75,9 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; ADEOLUWA ADEOYE. All rights reserved</small>
+        <small>
+          &copy; {currentYear} ADEOLUWA ADEOYE. All rights reserved.
+        </small>
       </div>
     </footer>
   );

@@ -13,9 +13,9 @@ const About = () => {
         <div className="about__me">
           <div className="about__me-image">
             <img
-              width={400}
-              height={400}
-              src={require("../../assets/logobg.png")}
+              width={340}
+              height={340}
+              src={require("../../assets/logobg2.png")}
               alt="my_picture"
               className="img"
             />
