@@ -51,7 +51,7 @@ const About = () => {
           </div>
 
           <div className="about__wrapper">
-            <h4>Front-End Developer & UX Designer 🎨</h4>
+            <h4>Front-End Developer & UX Designer</h4>
             <p>
               Adeoluwa is a dedicated <strong>Software Engineer</strong>{" "}
               specializing in frontend development and UX design. He is

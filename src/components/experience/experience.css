@@ -27,7 +27,7 @@
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
 .experience-details {
@@ -61,6 +61,7 @@
 /* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
 @media screen and (max-width: 600px) {
     .experience__container {
+        width: 95%;
         gap: 1rem;
     }
 
