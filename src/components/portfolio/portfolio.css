@@ -19,10 +19,8 @@
     background: transparent;
 }
 
-.portfolio__item-image {
-    width: 22rem;
-    height: 18rem;
-    border-radius: 1.5rem;
+.portfolio__item-image img {
+    width: 100%;
     overflow: hidden;
 }
 

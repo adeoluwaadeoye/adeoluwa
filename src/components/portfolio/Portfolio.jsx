@@ -11,7 +11,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio1.jpg")}
+              src={require("../../assets/portfolio1.png")}
               alt="my_project"
               className="img"
             />
@@ -40,15 +40,15 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio2.jpg")}
+              src={require("../../assets/portfolio2.png")}
               alt="my_project"
               className="img"
             />
           </div>
-          <h3>FlavorFusion</h3>
+          <h3>Brainwave</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/CodeWhirl1/FlavorFusion"
+              href="https://github.com/adeoluwaadeoye/brainwave"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -56,7 +56,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://myflavorfusion.netlify.app/"
+              href="https://brainywave.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -69,7 +69,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio3.jpg")}
+              src={require("../../assets/portfolio3.png")}
               alt="my_project"
               className="img"
             />
@@ -127,7 +127,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio6.jpg")}
+              src={require("../../assets/portfolio6.png")}
               alt="my_project"
               className="img"
             />
@@ -156,7 +156,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio4.jpg")}
+              src={require("../../assets/portfolio4.png")}
               alt="my_project"
               className="img"
             />

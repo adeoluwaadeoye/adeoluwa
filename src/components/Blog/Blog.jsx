@@ -19,11 +19,7 @@ const Blog = () => {
                 image={value.image}
                 date={value.date}
                 title_one={value.title_one}
-                title_two={value.title_two}
-                title_three={value.title_three}
                 desc_one={value.desc_one}
-                desc_two={value.desc_two}
-                desc_three={value.desc_three}
               />
             );
           })}

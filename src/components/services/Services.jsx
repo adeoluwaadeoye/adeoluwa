@@ -125,13 +125,6 @@ const Services = () => {
                       Create impactful web solutions
                     </p>
                   </li>
-
-                  <li className="services__modal-service">
-                    <LuCode2 className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Shape compelling brand designs
-                    </p>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -185,13 +178,6 @@ const Services = () => {
                     <BiSolidPaint className="services__modal-icon" />
                     <p className="services__modal-info">
                       Develop visually appealing user interfaces
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Implement cutting-edge web development techniques
                     </p>
                   </li>
 

@@ -10,7 +10,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Development & Design</h3>
           <div className="experience__content">
             <div className="experience-details">
               <BsPatchCheckFill className="details__icon" />
@@ -24,7 +24,7 @@ const Experience = () => {
               <BsPatchCheckFill className="details__icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </div>
 
@@ -47,7 +47,23 @@ const Experience = () => {
             <div className="experience-details">
               <BsPatchCheckFill className="details__icon" />
               <div>
+                <h4>Figma</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </div>
+
+            <div className="experience-details">
+              <BsPatchCheckFill className="details__icon" />
+              <div>
                 <h4>Tailwind</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </div>
+
+            <div className="experience-details">
+              <BsPatchCheckFill className="details__icon" />
+              <div>
+                <h4>Git & Github</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </div>
@@ -64,12 +80,12 @@ const Experience = () => {
 
         <div className="experience__backend">
           <div className="experience__uxdesign">
-            <h3>UX Design Skills</h3>
+            <h3>Soft Skills</h3>
             <div className="experience__content">
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>User Research</h4>
+                  <h4>Collaboration</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </div>
@@ -77,7 +93,7 @@ const Experience = () => {
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>Wireframing</h4>
+                  <h4>Problem-Solving</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </div>
@@ -85,7 +101,7 @@ const Experience = () => {
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>Prototyping</h4>
+                  <h4>Communication</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </div>
@@ -93,7 +109,7 @@ const Experience = () => {
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>Usability Testing</h4>
+                  <h4>Adaptability</h4>
                   <small className="text-light">Intermediate</small>
                 </div>
               </div>
@@ -101,7 +117,7 @@ const Experience = () => {
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>UI/UX Design</h4>
+                  <h4>Attention to Detail</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </div>
@@ -109,7 +125,7 @@ const Experience = () => {
               <div className="experience-details">
                 <BsPatchCheckFill className="details__icon" />
                 <div>
-                  <h4>Figma</h4>
+                  <h4>Time Management</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </div>

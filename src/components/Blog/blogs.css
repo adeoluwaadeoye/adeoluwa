@@ -20,7 +20,7 @@
 }
 
 .blog__container img {
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -185,6 +185,10 @@ body.active-modal {
     }
     .modal__icon {
         margin: 1rem;
+    }
+
+    .blog__container img {
+        width: 100%;
     }
 }
 

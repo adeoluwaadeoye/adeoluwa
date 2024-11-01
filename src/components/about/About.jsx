@@ -3,6 +3,7 @@ import "./about.css";
 import {FaAward} from "react-icons/fa6";
 import {LuUsers} from "react-icons/lu";
 import {IoFolderOpenOutline} from "react-icons/io5";
+import {FaCode} from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -25,30 +26,48 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
+              <FaCode className="about__icon" />
+              <h5>Specialization</h5>
+              <small>Frontend</small>
+            </article>
+
+            <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>4+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
 
             <article className="about__card">
               <LuUsers className="about__icon" />
-              <h5>clients</h5>
-              <small>60+ Clients</small>
+              <h5>Clients</h5>
+              <small>20+ Clients</small>
             </article>
 
             <article className="about__card">
               <IoFolderOpenOutline className="about__icon" />
               <h5>Projects</h5>
-              <small>115+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
-          <div>
+          <div className="about__wrapper">
             <h4>Front-End Developer & UX Designer 🎨</h4>
             <p>
-              Crafting seamless digital experiences through code and design. I
-              thrive on transforming ideas into intuitive and visually stunning
-              interfaces. Let's redefine the digital landscape together!💻
+              Adeoluwa is a dedicated <strong>Software Engineer</strong>{" "}
+              specializing in frontend development and UX design. He is
+              committed to creating responsive, visually appealing applications
+              that deliver exceptional user experiences. With a strong
+              foundation in UX principles and a keen eye for detail, he builds
+              intuitive and accessible solutions tailored to diverse user needs.
+            </p>
+
+            <p>
+              With over three years of experience, Adeoluwa has successfully
+              contributed to various projects, ensuring quality and efficiency
+              throughout the development process. His passion for innovation
+              drives him to stay updated with industry trends, allowing him to
+              bring fresh perspectives to each project while striving for
+              excellence in both functionality and design.
             </p>
           </div>
 
