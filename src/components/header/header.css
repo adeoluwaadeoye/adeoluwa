@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 2rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -85,10 +85,6 @@ header {
 
 /* ------------MEDIA QUERIES (MEDIUM DEVICES)-------------------- */
 @media screen and (max-width: 1024px) {
-    /* header {
-        height: 68vh;
-    } */
-
     .me {
         background: linear-gradient(var(--color-primary), transparent);
         left: calc(58% - 11.9rem);
@@ -98,9 +94,6 @@ header {
 
 /* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
 
     .header__socials,
     .scroll__down {
