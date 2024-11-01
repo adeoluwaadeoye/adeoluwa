@@ -3,7 +3,7 @@ import "./nav.css";
 import {IoHomeOutline} from "react-icons/io5";
 import {CiUser} from "react-icons/ci";
 import {BsBook} from "react-icons/bs";
-import {FaLaptopCode} from "react-icons/fa";
+import {FaBriefcase} from "react-icons/fa";
 import {MdOutlineMessage} from "react-icons/md";
 
 const Navbar = () => {
@@ -36,11 +36,11 @@ const Navbar = () => {
         <BsBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <FaLaptopCode />
+        <FaBriefcase />
       </a>
       <a
         href="#contact"

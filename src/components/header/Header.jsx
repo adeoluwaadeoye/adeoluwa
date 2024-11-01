@@ -22,7 +22,7 @@ const Header = () => {
 
         <div className="me">
           <img
-            src={require("../../assets/me.png")}
+            src={require("../../assets/me2.png")}
             alt="my_picture"
             className="img"
           />

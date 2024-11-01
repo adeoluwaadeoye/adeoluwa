@@ -13,7 +13,6 @@
 }
 
 .blog__container .img {
-    height: 300px;
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
@@ -114,6 +113,7 @@ body.active-modal {
 
 .modal-text {
     padding: 0 100px 0 50px;
+    text-align: justify;
 }
 
 .modal-text h1 {

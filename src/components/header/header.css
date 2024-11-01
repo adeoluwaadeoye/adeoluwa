@@ -43,10 +43,10 @@ header {
 /* ================== ME =================== */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 24rem;
-    height: 25rem;
+    width: 18rem;
+    height: 18;
     position: absolute;
-    left: calc(49.5% - 11rem);
+    left: calc(52.5% - 11rem);
     margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -54,7 +54,7 @@ header {
 }
 
 .me .img {
-    width: 400px;
+    width: 300px;
 }
 
 /* ==================SCROLL DOWN =================== */
@@ -85,8 +85,13 @@ header {
 
 /* ------------MEDIA QUERIES (MEDIUM DEVICES)-------------------- */
 @media screen and (max-width: 1024px) {
-    header {
+    /* header {
         height: 68vh;
+    } */
+
+    .me {
+        background: linear-gradient(var(--color-primary), transparent);
+        left: calc(58% - 11.9rem);
     }
 }
 
@@ -104,16 +109,14 @@ header {
 
     .me {
         background: linear-gradient(var(--color-primary), transparent);
-        left: calc(49.7% - 11.9rem);
+        left: calc(62% - 11.9rem);
     }
-        .wave {
-            font-size: 2.3rem;
-        }
-    
-        .my__name {
-            font-size: 2rem;
-        }
+
+    .wave {
+        font-size: 2.3rem;
+    }
+
+    .my__name {
+        font-size: 2rem;
+    }
 }
-
-
-
