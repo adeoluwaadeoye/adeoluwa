@@ -5,9 +5,9 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/testimonials";
+// import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/Contact";
-// import Blog from "./components/Blog/Blog";
+import Blog from "./components/Blog/Blog";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
-      {/* <Blog /> */}
+      <Blog />
       <Footer />
     </>
   );
