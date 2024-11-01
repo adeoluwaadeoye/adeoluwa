@@ -43,17 +43,8 @@
         gap: 1.3rem;
     }
 
-    .portfolio__item-image {
-        width: 20rem;
-        height: 15rem;
-    }
 }
 
-@media screen and (max-width: 768px) {
-    .portfolio__container {
-        margin: 0.8rem;
-    }
-}
 
 
 /* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
