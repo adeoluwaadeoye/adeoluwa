@@ -99,7 +99,7 @@ header {
 /* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
 @media screen and (max-width: 600px) {
     header {
-        padding-top: 4rem;
+        padding-top: 1rem;
     }
 
     .header__socials,
