@@ -140,6 +140,11 @@
     white-space: nowrap;
 }
 
+.counter-icon {
+    font-size: 1rem;
+    margin-right: 2px;
+}
+
 /* ==========ACTIVE MODAL======== */
 .active-modal {
     opacity: 1;

@@ -1,15 +1,14 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./services.css";
 import {HiOutlineArrowRight} from "react-icons/hi";
 import {LiaTimesSolid} from "react-icons/lia";
 import {BiSolidPaint} from "react-icons/bi";
 import {FaCubes, FaLaptopCode, FaPaintBrush, FaMobileAlt} from "react-icons/fa";
 import {LuCode2} from "react-icons/lu";
-import VisibilitySensor from "react-visibility-sensor";
+import Sensor from "./Sensor";
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
-  const [countersVisible, setCountersVisible] = useState(false);
 
   function toggleTab(index) {
     setToggleState(index);
@@ -18,34 +17,6 @@ const Services = () => {
   const closeModal = () => {
     setToggleState(0);
   };
-
-  const handleVisibilityChange = (isVisible) => {
-    if (isVisible) {
-      setCountersVisible(true);
-    }
-  };
-
-  useEffect(() => {
-    if (countersVisible) {
-      const $counters = document.querySelectorAll(".counter");
-
-      $counters.forEach(($counter) => {
-        $counter.innerText = "0";
-        const target = Number($counter.getAttribute("data-target"));
-        const increment = target / 200;
-
-        const updateCounter = () => {
-          const count = Number($counter.innerText);
-          if (count < target) {
-            $counter.innerText = `${Math.ceil(count + increment)}`;
-            setTimeout(updateCounter, 50);
-          }
-        };
-
-        updateCounter();
-      });
-    }
-  }, [countersVisible]);
 
   return (
     <section id="services">
@@ -283,37 +254,7 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Service Counters */}
-      <VisibilitySensor
-        onChange={handleVisibilityChange}
-        partialVisibility={true}
-      >
-        <div className="container service__counters">
-          {/* Counter 1 */}
-          <div className="counter__item">
-            <div className="counter" data-target="4"></div>
-            <small className="counter__text">Years of Experience</small>
-          </div>
-
-          {/* Counter 2 */}
-          <div className="counter__item">
-            <div className="counter" data-target="30"></div>
-            <small className="counter__text">Satisfied Customers</small>
-          </div>
-
-          {/* Counter 3 */}
-          <div className="counter__item">
-            <div className="counter" data-target="45"></div>
-            <small className="counter__text">Design Items</small>
-          </div>
-
-          {/* Counter 4 */}
-          <div className="counter__item">
-            <div className="counter" data-target="75"></div>
-            <small className="counter__text">Clients served</small>
-          </div>
-        </div>
-      </VisibilitySensor>
+      <Sensor />
     </section>
   );
 };
