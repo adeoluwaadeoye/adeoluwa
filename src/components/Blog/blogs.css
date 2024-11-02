@@ -203,3 +203,43 @@ body.active-modal {
         width: 100%;
     }
 }
+
+
+
+
+/* Styling for the external link */
+.modal-text .btn__link {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-bg-variant);
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.modal-text .btn__link:hover {
+    background: var(--color-white);
+}
+
+.modal-text .btn__link svg {
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .btn__link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn__link {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.8rem;
+    }
+}

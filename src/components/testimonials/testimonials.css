@@ -1,4 +1,4 @@
-/* .container.testimonials__container {
+.container.testimonials__container {
     width: 40%;
     padding-bottom: 4rem;
     position: relative;
@@ -61,4 +61,4 @@
     .client__review {
         width: var(--container-width-sm);
     }
-} */
+}

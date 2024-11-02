@@ -17,6 +17,7 @@
     "react-simple-typewriter": "^5.0.1",
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14",
     "unicons": "^0.0.3",
     "web-vitals": "^2.1.4"
   },

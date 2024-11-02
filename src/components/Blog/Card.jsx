@@ -50,11 +50,15 @@ const Card = (props) => {
               <h1>{props.title_one}</h1>
               <p>{props.desc_one}</p>
 
-              {/* <h1>{props.title_two}</h1>
-              <p>{props.desc_two}</p>
-
-              <h1>{props.title_three}</h1>
-              <p>{props.desc_three}</p> */}
+              {/* Link to full article */}
+              <a
+                href={props.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn__link cta"
+              >
+                Read Full Article <FaArrowUpRightFromSquare />
+              </a>
 
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <LiaTimesSolid className="modal__icon" />
