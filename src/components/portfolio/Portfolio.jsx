@@ -74,10 +74,10 @@ const Portfolio = () => {
               className="img"
             />
           </div>
-          <h3>VisualHunt</h3>
+          <h3>CrystalPay</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/CodeWhirl1/VisualHunt"
+              href="https://github.com/adeoluwaadeoye/CrystalPay"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -85,7 +85,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://visualhunt.netlify.app"
+              href="https://crystalpay.netlify.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
