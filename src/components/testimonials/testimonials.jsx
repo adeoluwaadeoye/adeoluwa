@@ -6,7 +6,6 @@ import avatar2 from "../../assets/avatar2.jpg";
 import avatar3 from "../../assets/avatar3.jpg";
 import avatar4 from "../../assets/avatar4.jpg";
 import avatar5 from "../../assets/avatar5.jpg";
-import avatar6 from "../../assets/avatar6.jpg";
 
 import {Swiper, SwiperSlide} from "swiper/react";
 
@@ -53,13 +52,13 @@ const data = [
     review:
       "Fantastic experience from start to finish! The team’s dedication and creativity brought our vision to life in ways we hadn’t imagined. Adeoluwa has an eye for detail and a passion for quality. Highly recommend!",
   },
-  {
-    id: 6,
-    avatar: avatar6,
-    name: "Akinola Wellington",
-    review:
-      "I was blown away by the professionalism and high-quality output. Working with Adeoluwa was a breeze, and the final product was exceptional. Thank you for making this process seamless and enjoyable!",
-  },
+  // {
+  //   id: 6,
+  //   avatar: avatar6,
+  //   name: "Akinola Wellington",
+  //   review:
+  //     "I was blown away by the professionalism and high-quality output. Working with Adeoluwa was a breeze, and the final product was exceptional. Thank you for making this process seamless and enjoyable!",
+  // },
 ];
 
 const Testimonials = () => {
@@ -77,7 +76,7 @@ const Testimonials = () => {
         keyboard={true}
         modules={[Pagination, Autoplay, Keyboard]}
         autoplay={{
-          delay: 7000,
+          delay: 10000,
           disableOnInteraction: false,
         }}
       >
