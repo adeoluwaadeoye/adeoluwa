@@ -36,8 +36,8 @@ To view the portfolio locally on your machine, follow these steps:
 3. Open `index.html` in your preferred web browser.
 
 ## Demo Images
-![Demo](src/assets/homepage.png)
-c
+![Homepage](src/assets/homepage.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
