@@ -135,7 +135,7 @@ const Portfolio = () => {
           <h3>CraveWave</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/adeoluwaadeoye/foodapp"
+              href="https://github.com/adeoluwaadeoye/CraveWave"
               className="btn"
               target="_blank"
               rel="noreferrer"
