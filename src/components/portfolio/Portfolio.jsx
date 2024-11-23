@@ -19,7 +19,7 @@ const Portfolio = () => {
           <h3>TastyTopz</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/CodeWhirl1/fudo"
+              href="https://github.com/adeoluwaadeoye/fudo"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -135,7 +135,7 @@ const Portfolio = () => {
           <h3>CraveWave</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/CodeWhirl1/foodapp"
+              href="https://github.com/adeoluwaadeoye/foodapp"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -164,7 +164,7 @@ const Portfolio = () => {
           <h3>WoodieHub</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/CodeWhirl1/woodex"
+              href="https://github.com/adeoluwaadeoye/woodex"
               className="btn"
               target="_blank"
               rel="noreferrer"
