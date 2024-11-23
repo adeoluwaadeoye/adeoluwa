@@ -103,10 +103,10 @@ const Portfolio = () => {
               className="img"
             />
           </div>
-          <h3>BuyRyte</h3>
+          <h3>E-Store</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/CodeWhirl1/BuyRyte"
+              href="https://github.com/adeoluwaadeoye/e-store"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -114,7 +114,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://buyryte.netlify.app/"
+              href="https://crystalshopdemo.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
