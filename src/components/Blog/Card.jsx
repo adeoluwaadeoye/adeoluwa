@@ -57,7 +57,7 @@ const Card = (props) => {
                 rel="noopener noreferrer"
                 className="btn btn__link cta"
               >
-                Read more <FaArrowUpRightFromSquare />
+                See more <FaArrowUpRightFromSquare />
               </a>
 
               <button className="close-modal btn_shadow" onClick={toggleModal}>
