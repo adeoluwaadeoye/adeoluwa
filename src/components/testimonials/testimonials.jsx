@@ -20,7 +20,7 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: "Beatrice Umoh",
+    name: "Lilian James",
     review:
       "I had an amazing experience with his services. He was professional, courteous, and delivered outstanding results. I highly recommend him to anyone looking for top-notch service!",
   },
@@ -29,14 +29,14 @@ const data = [
     avatar: avatar2,
     name: "Adeshina James",
     review:
-      "Working with Adeoluwa's was an excellent experience! He exceeded my expectations. The attention to detail and dedication to delivering quality work were impressive. I look forward to collaborating with them again in the future.",
+      "Working with Adeoluwa's team was an excellent experience! He exceeded my expectations. The attention to detail and dedication to delivering quality work were impressive. I look forward to collaborating with them again in the future.",
   },
   {
     id: 3,
     avatar: avatar3,
     name: "Destiny Okafor",
     review:
-      "I'm extremely satisfied with the services provided by him. His professionalism and efficiency stood out throughout the project. I will definitely choose him for my future projects and recommend him to others seeking reliable and high-quality solutions.",
+      "I'm extremely satisfied with the services provided by this team. Their professionalism and efficiency stood out throughout the project. I will definitely choose them for my future projects and recommend them to others seeking reliable and high-quality solutions.",
   },
   {
     id: 4,

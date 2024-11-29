@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+(import React, {useState} from "react";
 import {FaArrowUpRightFromSquare} from "react-icons/fa6";
 import {LiaTimesSolid} from "react-icons/lia";
 
