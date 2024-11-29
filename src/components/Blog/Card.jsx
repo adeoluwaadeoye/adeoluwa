@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+(import React, {useState} from "react";
 import {FaArrowUpRightFromSquare} from "react-icons/fa6";
 import {LiaTimesSolid} from "react-icons/lia";
 
@@ -57,7 +57,7 @@ const Card = (props) => {
                 rel="noopener noreferrer"
                 className="btn btn__link cta"
               >
-                Read Full Article <FaArrowUpRightFromSquare />
+                Read more <FaArrowUpRightFromSquare />
               </a>
 
               <button className="close-modal btn_shadow" onClick={toggleModal}>
