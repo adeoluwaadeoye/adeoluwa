@@ -121,14 +121,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
-    margin-top: 1rem;
-    width: 50%;
+    margin-top: 2rem;
+    width: 70%;
     place-content: center;
 }
 
 .counter {
     color: var(--color-primary);
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Macondo', serif;
 }
 
 .counter__item {
@@ -141,7 +142,7 @@
 }
 
 .counter-icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-right: 2px;
 }
 
