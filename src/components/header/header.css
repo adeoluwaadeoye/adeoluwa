@@ -22,7 +22,7 @@ header {
     justify-content: center;
 }
 
-/* ==================HEADER SOCIALS=================== */
+/* ===========HEADER SOCIALS=========== */
 .header__socials {
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 18rem;
-    height: 18;
+    height: 17rem;
     position: absolute;
     left: calc(52.5% - 11rem);
     margin-top: 3rem;

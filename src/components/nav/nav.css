@@ -27,7 +27,7 @@ nav a {
 nav a.active {
     background: var(--color-bg);
     border: 1px solid var(--color-bg-variant);
-    box-shadow: inset 2px 2px 2px 2px #111;
+    box-shadow: inset 1px 1px 2px 2px #111;
 }
 
 @media screen and (max-width: 600px){
