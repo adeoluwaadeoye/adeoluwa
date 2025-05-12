@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import "./services.css";
-import {HiOutlineArrowRight} from "react-icons/hi";
-import {LiaTimesSolid} from "react-icons/lia";
-import {BiSolidPaint} from "react-icons/bi";
-import {FaCubes, FaLaptopCode, FaPaintBrush, FaMobileAlt} from "react-icons/fa";
-import {LuCode2} from "react-icons/lu";
+import { HiOutlineArrowRight } from "react-icons/hi";
+import { LiaTimesSolid } from "react-icons/lia";
+import { BiSolidPaint } from "react-icons/bi";
+import { FaCubes, FaLaptopCode, FaPaintBrush, FaMobileAlt } from "react-icons/fa";
+import { LuCode2 } from "react-icons/lu";
 import Sensor from "./Sensor";
 
 const Services = () => {
@@ -12,11 +12,20 @@ const Services = () => {
 
   function toggleTab(index) {
     setToggleState(index);
+    document.body.style.overflow = "hidden"; // Disable scrolling
   }
 
   const closeModal = () => {
     setToggleState(0);
+    document.body.style.overflow = "auto"; // Re-enable scrolling
   };
+
+  useEffect(() => {
+    return () => {
+      // Ensure scroll is restored on unmount
+      document.body.style.overflow = "auto";
+    };
+  }, []);
 
   return (
     <section id="services">
@@ -24,6 +33,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
+
         {/* Article 1 */}
         <div className="services__content">
           <article className="services">
@@ -40,61 +50,35 @@ const Services = () => {
               <HiOutlineArrowRight className="services__button-icon" />
             </span>
 
-            <div
-              className={
-                toggleState === 1
-                  ? "services__modal active-modal"
-                  : "services__modal"
-              }
-            >
+            <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
               <div className="services__modal-content">
-                <LiaTimesSolid
-                  className="service__modal-close"
-                  onClick={closeModal}
-                />
-
+                <LiaTimesSolid className="service__modal-close" onClick={closeModal} />
                 <h3 className="services__modal-title">Product Designer</h3>
                 <p className="services__modal-description">
-                  With over three years of experience as a Frontend Developer
-                  and UX Designer, I've consistently delivered top-notch work
-                  for clients and companies, showcasing a commitment to
-                  excellence.
+                  With over three years of experience as a Frontend Developer and UX Designer,
+                  I've consistently delivered top-notch work for clients and companies,
+                  showcasing a commitment to excellence.
                 </p>
-
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <BiSolidPaint className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Craft visually appealing user interfaces
-                    </p>
+                    <p className="services__modal-info">Craft visually appealing user interfaces</p>
                   </li>
-
                   <li className="services__modal-service">
                     <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Implement seamless web development
-                    </p>
+                    <p className="services__modal-info">Implement seamless web development</p>
                   </li>
-
                   <li className="services__modal-service">
                     <LuCode2 className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Design and implement engaging UX element interactions
-                    </p>
+                    <p className="services__modal-info">Design and implement engaging UX element interactions</p>
                   </li>
-
                   <li className="services__modal-service">
                     <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Develop user-centric websites
-                    </p>
+                    <p className="services__modal-info">Develop user-centric websites</p>
                   </li>
-
                   <li className="services__modal-service">
                     <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Create impactful web solutions
-                    </p>
+                    <p className="services__modal-info">Create impactful web solutions</p>
                   </li>
                 </ul>
               </div>
@@ -118,59 +102,34 @@ const Services = () => {
               <HiOutlineArrowRight className="services__button-icon" />
             </span>
 
-            <div
-              className={
-                toggleState === 2
-                  ? "services__modal active-modal"
-                  : "services__modal"
-              }
-            >
+            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
               <div className="services__modal-content">
-                <LiaTimesSolid
-                  className="service__modal-close"
-                  onClick={closeModal}
-                />
-
+                <LiaTimesSolid className="service__modal-close" onClick={closeModal} />
                 <h3 className="services__modal-title">UI/UX Designer</h3>
                 <p className="services__modal-description">
-                  With over three years of experience, I excel as a Frontend
-                  Developer and UX Designer, consistently delivering top-notch
-                  solutions to clients and companies.
+                  With over three years of experience, I excel as a Frontend Developer and UX Designer,
+                  consistently delivering top-notch solutions to clients and companies.
                 </p>
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <FaCubes className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Craft engaging and innovative product designs
-                    </p>
+                    <p className="services__modal-info">Craft engaging and innovative product designs</p>
                   </li>
-
                   <li className="services__modal-service">
                     <BiSolidPaint className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Develop visually appealing user interfaces
-                    </p>
+                    <p className="services__modal-info">Develop visually appealing user interfaces</p>
                   </li>
-
                   <li className="services__modal-service">
                     <LuCode2 className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Create seamless UX element interactions
-                    </p>
+                    <p className="services__modal-info">Create seamless UX element interactions</p>
                   </li>
-
                   <li className="services__modal-service">
                     <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Execute high-quality web development projects
-                    </p>
+                    <p className="services__modal-info">Execute high-quality web development projects</p>
                   </li>
-
                   <li className="services__modal-service">
                     <LuCode2 className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Design impactful and cohesive brand identities
-                    </p>
+                    <p className="services__modal-info">Design impactful and cohesive brand identities</p>
                   </li>
                 </ul>
               </div>
@@ -184,7 +143,8 @@ const Services = () => {
             <div>
               <FaPaintBrush className="services__icon" />
               <h3 className="services__title">
-                Visual <br /> Designer
+                Visual <br />
+                Designer
               </h3>
             </div>
 
@@ -193,59 +153,34 @@ const Services = () => {
               <HiOutlineArrowRight className="services__button-icon" />
             </span>
 
-            <div
-              className={
-                toggleState === 3
-                  ? "services__modal active-modal"
-                  : "services__modal"
-              }
-            >
+            <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
               <div className="services__modal-content">
-                <LiaTimesSolid
-                  className="service__modal-close"
-                  onClick={closeModal}
-                />
-
+                <LiaTimesSolid className="service__modal-close" onClick={closeModal} />
                 <h3 className="services__modal-title">Visual Designer</h3>
                 <p className="services__modal-description">
-                  Boasting over three years of experience, I excel as a Frontend
-                  Developer and UX Designer, consistently delivering top-notch
-                  solutions to clients and companies.
+                  Boasting over three years of experience, I excel as a Frontend Developer and UX Designer,
+                  consistently delivering top-notch solutions to clients and companies.
                 </p>
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">
                     <FaPaintBrush className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Craft visually stunning and creative designs
-                    </p>
+                    <p className="services__modal-info">Craft visually stunning and creative designs</p>
                   </li>
-
                   <li className="services__modal-service">
                     <BiSolidPaint className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Develop captivating user interfaces
-                    </p>
+                    <p className="services__modal-info">Develop captivating user interfaces</p>
                   </li>
-
                   <li className="services__modal-service">
                     <LuCode2 className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Create engaging UX element interactions
-                    </p>
+                    <p className="services__modal-info">Create engaging UX element interactions</p>
                   </li>
-
                   <li className="services__modal-service">
                     <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Implement web development with a focus on aesthetics
-                    </p>
+                    <p className="services__modal-info">Implement web development with a focus on aesthetics</p>
                   </li>
-
                   <li className="services__modal-service">
                     <FaLaptopCode className="services__modal-icon" />
-                    <p className="services__modal-info">
-                      Execute visually impactful web development projects
-                    </p>
+                    <p className="services__modal-info">Execute visually impactful web development projects</p>
                   </li>
                 </ul>
               </div>
