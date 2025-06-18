@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import {FaAward} from "react-icons/fa6";
-import {LuUsers} from "react-icons/lu";
-import {IoFolderOpenOutline} from "react-icons/io5";
-import {FaCode} from "react-icons/fa6";
+// import {FaAward} from "react-icons/fa6";
+// import {LuUsers} from "react-icons/lu";
+// import {IoFolderOpenOutline} from "react-icons/io5";
+// import {FaCode} from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -14,8 +14,6 @@ const About = () => {
         <div className="about__me">
           <div className="about__me-image">
             <img
-              width={340}
-              height={340}
               src={require("../../assets/logobg2.png")}
               alt="my_picture"
               className="img"
@@ -24,7 +22,7 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FaCode className="about__icon" />
               <h5>Specialization</h5>
@@ -48,7 +46,7 @@ const About = () => {
               <h5>Projects</h5>
               <small>20+ Completed</small>
             </article>
-          </div>
+          </div> */}
 
           <div className="about__wrapper">
             <h4>Front-End Developer & UX Designer</h4>

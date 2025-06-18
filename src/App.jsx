@@ -7,7 +7,7 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/Contact";
-import Blog from "./components/Blog/Blog";
+// import Blog from "./components/Blog/Blog";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </>
   );
