@@ -1,72 +1,84 @@
-.experience__container {
+  #experience {
+    padding: 4rem 1rem;
+    background: var(--color-bg);
+    color: var(--color-white);
+  }
+  
+  #experience h5 {
+    text-align: center;
+    color: var(--color-light);
+    margin-bottom: 0.5rem;
+  }
+  
+  #experience h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+  }
+  
+  .experience__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-}
-
-.experience__container>div {
+    align-items: start;
+  }
+  
+  .experience__category {
     background: var(--color-bg-variant);
-    padding: 2.4rem 2.5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
-}
-
-.experience__container>div:hover {
-    background: transparent;
-    border-color: var(--secondary-color);
-    cursor: pointer;
-}
-
-.experience__container>div h3 {
+  }
+  
+  .experience__category h3 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--color-primary);
-}
-
-.experience__content {
+  }
+  
+  .skills__list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-    column-gap: 2rem;
-}
-
-.experience-details {
+    grid-template-columns: 1fr 1fr; /* ⬅️ Two-column layout */
+    gap: 1.2rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .skill__item {
     display: flex;
-    gap: 1rem;
-}
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--color-light);
+    font-size: 1rem;
+    transition: var(--transition);
+    line-height: 1.2;
+    min-height: 28px; /* Ensures equal height for single-line items */
+  }
+  
 
-.details__icon {
-    margin-top: 6px;
+  .skill__icon {
     color: var(--color-primary);
-}
-
-/* ------------MEDIA QUERIES (MEDIUM DEVICES)-------------------- */
-@media screen and (max-width: 1024px) {
-    .experience__container {
-        grid-template-columns: 1fr;
+    font-size: 1.1rem;
+    flex-shrink: 0;       /* Prevents the icon from shrinking */
+    align-self: flex-start; /* Aligns icon with first line of text */
+  }
+  
+  
+  /* Responsive for ultra small screens only */
+  @media screen and (max-width: 500px) {
+    .experience__wrapper {
+      grid-template-columns: 1fr; /* keep side-by-side */
+      gap: 1rem;
     }
-
-    .experience__container>div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
+  
+    .experience__category {
+      padding: 1.5rem 1rem;
     }
-
-    .experience__content {
-        padding: 1rem;
+  
+    .skill__item {
+      font-size: 0.95rem;
     }
-}
-
-
-/* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
-@media screen and (max-width: 600px) {
-    .experience__container {
-        gap: 1rem;
-    }
-
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
-}
+  }
+  
