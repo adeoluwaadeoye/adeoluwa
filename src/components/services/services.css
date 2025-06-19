@@ -117,35 +117,6 @@
     font-size: 1rem;
 }
 
-/* =========SERVICE COUNTER========= */
-.service__counters {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.5rem;
-    margin-top: 2rem;
-    width: 70%;
-    place-content: center;
-}
-
-.counter {
-    color: var(--color-primary);
-    font-size: 2rem;
-}
-
-.counter__item {
-    text-align: center;
-    padding: 1rem;
-}
-
-.counter__text {
-    white-space: nowrap;
-}
-
-.counter-icon {
-    font-size: 1.2rem;
-    margin-right: 2px;
-}
-
 /* ==========ACTIVE MODAL======== */
 .active-modal {
     opacity: 1;

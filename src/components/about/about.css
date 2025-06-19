@@ -80,12 +80,6 @@
   color: var(--color-light);
 }
 
-.about__content a {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-
 
 /* ------------MEDIA QUERIES (MEDIUM DEVICES)-------------------- */
 @media screen and (max-width: 1024px) {
@@ -104,6 +98,12 @@
     margin: 2rem 0 1.5rem;
   }
 
+  .about__content a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .about__content p {
     margin-bottom: 1rem;
   }
@@ -116,7 +116,7 @@
 /* ------------MEDIA QUERIES (SMALL DEVICES)-------------------- */
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 100%;
+    width: 70%;
     margin: 0 auto 3rem;
   }
 
@@ -132,6 +132,11 @@
   .about__content p {
     margin: 1.5rem 0;
     text-align: left;
+  }
+  .about__content a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .about__me-image {

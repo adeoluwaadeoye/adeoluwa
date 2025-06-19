@@ -1,40 +1,39 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import "./services.css";
-import { HiOutlineArrowRight } from "react-icons/hi";
-import { LiaTimesSolid } from "react-icons/lia";
-import { BiSolidPaint } from "react-icons/bi";
-import { FaCubes, FaLaptopCode, FaPaintBrush, FaMobileAlt } from "react-icons/fa";
-import { LuCode2 } from "react-icons/lu";
+// import { HiOutlineArrowRight } from "react-icons/hi";
+// import { LiaTimesSolid } from "react-icons/lia";
+// import { BiSolidPaint } from "react-icons/bi";
+// import { FaCubes, FaLaptopCode, FaPaintBrush, FaMobileAlt } from "react-icons/fa";
+// import { LuCode2 } from "react-icons/lu";
 import Sensor from "./Sensor";
 
 const Services = () => {
-  const [toggleState, setToggleState] = useState(0);
+  // const [toggleState, setToggleState] = useState(0);
 
-  function toggleTab(index) {
-    setToggleState(index);
-    document.body.style.overflow = "hidden"; // Disable scrolling
-  }
+  // function toggleTab(index) {
+  //   setToggleState(index);
+  //   document.body.style.overflow = "hidden"; // Disable scrolling
+  // }
 
-  const closeModal = () => {
-    setToggleState(0);
-    document.body.style.overflow = "auto"; // Re-enable scrolling
-  };
+  // const closeModal = () => {
+  //   setToggleState(0);
+  //   document.body.style.overflow = "auto"; // Re-enable scrolling
+  // };
 
-  useEffect(() => {
-    return () => {
-      // Ensure scroll is restored on unmount
-      document.body.style.overflow = "auto";
-    };
-  }, []);
+  // useEffect(() => {
+  //   return () => {
+  //     // Ensure scroll is restored on unmount
+  //     document.body.style.overflow = "auto";
+  //   };
+  // }, []);
 
   return (
     <section id="services">
-      <h5>What I offer</h5>
-      <h2>Services</h2>
+      {/* <h5>What I offer</h5>
+      <h2>Services</h2> */}
 
-      <div className="container services__container">
+      {/* <div className="container services__container">
 
-        {/* Article 1 */}
         <div className="services__content">
           <article className="services">
             <div>
@@ -86,7 +85,6 @@ const Services = () => {
           </article>
         </div>
 
-        {/* Article 2 */}
         <div className="services__content">
           <article className="services">
             <div>
@@ -137,7 +135,6 @@ const Services = () => {
           </article>
         </div>
 
-        {/* Article 3 */}
         <div className="services__content">
           <article className="services">
             <div>
@@ -187,7 +184,7 @@ const Services = () => {
             </div>
           </article>
         </div>
-      </div>
+      </div> */}
 
       <Sensor />
     </section>

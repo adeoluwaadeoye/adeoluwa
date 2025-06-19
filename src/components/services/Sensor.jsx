@@ -1,6 +1,9 @@
-import React, {useEffect, useState, useMemo} from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import VisibilitySensor from "react-visibility-sensor";
-import {FaPlus} from "react-icons/fa6";
+import { FaPlus } from "react-icons/fa6";
+import { FaBrain, FaLaptopCode, FaHandshake, FaPaintBrush } from "react-icons/fa";
+import "./sensor.css"
+
 
 const ServiceCounters = () => {
   const [visible, setVisible] = useState(false);
@@ -17,7 +20,7 @@ const ServiceCounters = () => {
       projects: 30,
       clients: 20,
       items: 25,
-      experience: 3,
+      experience: 5,
     }),
     []
   );
@@ -28,7 +31,7 @@ const ServiceCounters = () => {
         let start = 0;
         const end = targets[key];
         const duration = 3000; // 3 seconds for smooth counting
-        const increment = end / (duration / 50);
+        const increment = end / (duration / 40);
 
         const counter = setInterval(() => {
           start += increment;
@@ -57,7 +60,9 @@ const ServiceCounters = () => {
             {counts.experience}
             <FaPlus className="counter-icon" />
           </div>
-          <small className="counter__text">Years of Experience</small>
+          <small className="counter__text">
+            Years of Experience <FaBrain className="counter__emoji" />
+          </small>
         </div>
 
         {/* Counter for Projects */}
@@ -66,7 +71,10 @@ const ServiceCounters = () => {
             {counts.projects}
             <FaPlus className="counter-icon" />
           </div>
-          <small className="counter__text">Projects</small>
+          {/* <small className="counter__text">Projects</small> */}
+          <small className="counter__text">
+            Projects <FaLaptopCode className="counter__emoji" />
+          </small>
         </div>
 
         {/* Counter for Clients */}
@@ -75,7 +83,10 @@ const ServiceCounters = () => {
             {counts.clients}
             <FaPlus className="counter-icon" />
           </div>
-          <small className="counter__text">Clients Served</small>
+          {/* <small className="counter__text">Clients Served</small> */}
+          <small className="counter__text">
+            Clients Served <FaHandshake className="counter__emoji" />
+          </small>
         </div>
 
         {/* Counter for Design Items */}
@@ -84,7 +95,9 @@ const ServiceCounters = () => {
             {counts.items}
             <FaPlus className="counter-icon" />
           </div>
-          <small className="counter__text">Design Items</small>
+          <small className="counter__text">
+            Design Items <FaPaintBrush className="counter__emoji" />
+          </small>
         </div>
       </div>
     </VisibilitySensor>

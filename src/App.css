@@ -40,7 +40,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  overflow-x: hidden;
 }
 
 /* ------------GENERAL STYLES----------------*/

@@ -1,6 +1,7 @@
 import React from "react";
 import "./experience.css";
-import {BsPatchCheckFill} from "react-icons/bs";
+import { BsPatchCheckFill } from "react-icons/bs";
+import Sensor from "../services/Sensor"
 
 const Experience = () => {
   return (
@@ -15,21 +16,7 @@ const Experience = () => {
             <div className="experience-details">
               <BsPatchCheckFill className="details__icon" />
               <div>
-                <h4>HTML</h4>
-              </div>
-            </div>
-
-            <div className="experience-details">
-              <BsPatchCheckFill className="details__icon" />
-              <div>
-                <h4>CSS</h4>
-              </div>
-            </div>
-
-            <div className="experience-details">
-              <BsPatchCheckFill className="details__icon" />
-              <div>
-                <h4>Javascript</h4>
+                <h4>JavaScript</h4>
               </div>
             </div>
 
@@ -65,6 +52,34 @@ const Experience = () => {
               <BsPatchCheckFill className="details__icon" />
               <div>
                 <h4>React</h4>
+              </div>
+            </div>
+
+            <div className="experience-details">
+              <BsPatchCheckFill className="details__icon" />
+              <div>
+                <h4>TypeScript</h4>
+              </div>
+            </div>
+
+            <div className="experience-details">
+              <BsPatchCheckFill className="details__icon" />
+              <div>
+                <h4>Next.js</h4>
+              </div>
+            </div>
+
+            <div className="experience-details">
+              <BsPatchCheckFill className="details__icon" />
+              <div>
+                <h4>Framer Motion</h4>
+              </div>
+            </div>
+
+            <div className="experience-details">
+              <BsPatchCheckFill className="details__icon" />
+              <div>
+                <h4>Styled Components</h4>
               </div>
             </div>
           </div>
@@ -115,10 +130,32 @@ const Experience = () => {
                   <h4>Time Management</h4>
                 </div>
               </div>
+
+              <div className="experience-details">
+                <BsPatchCheckFill className="details__icon" />
+                <div>
+                  <h4>Creativity</h4>
+                </div>
+              </div>
+
+              <div className="experience-details">
+                <BsPatchCheckFill className="details__icon" />
+                <div>
+                  <h4>Attention to Detail</h4>
+                </div>
+              </div>
+
+              <div className="experience-details">
+                <BsPatchCheckFill className="details__icon" />
+                <div>
+                  <h4>Critical Thinking</h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+     <Sensor />
     </section>
   );
 };

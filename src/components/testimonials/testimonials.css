@@ -5,7 +5,8 @@
 }
 
 .client__avatar {
-    width: 10rem;
+    width: 5rem;
+    height: auto;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
@@ -13,11 +14,11 @@
     border: 0.4rem solid var(--secondary-color);
 }
 
-.client__avatar img {
+/* .client__avatar img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-}
+} */
 
 .testimonial {
     background: var(--color-bg-variant);
@@ -40,8 +41,8 @@
 }
 
 .swiper-pagination-bullet {
-    width: 2rem !important;
-    height: 2rem !important;
+    width: 1rem !important;
+    height: 1rem !important;
     background-color: var(--color-primary) !important;
 }
 

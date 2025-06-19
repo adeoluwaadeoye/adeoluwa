@@ -32,7 +32,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Link
             </a>
           </div>
         </article>
@@ -61,7 +61,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Link
             </a>
           </div>
         </article>
@@ -90,7 +90,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Link
             </a>
           </div>
         </article>
@@ -114,12 +114,12 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://crystalshopdemo.netlify.app/"
+              href="https://crystalshopdewo.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Link
             </a>
           </div>
         </article>
@@ -148,7 +148,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Link
             </a>
           </div>
         </article>
@@ -177,7 +177,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Link
             </a>
           </div>
         </article>
