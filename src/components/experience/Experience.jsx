@@ -1,7 +1,6 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-import Sensor from "../services/Sensor"
 
 const Experience = () => {
   return (
@@ -155,7 +154,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-     <Sensor />
     </section>
   );
 };

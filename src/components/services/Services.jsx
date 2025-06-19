@@ -5,7 +5,6 @@ import "./services.css";
 // import { BiSolidPaint } from "react-icons/bi";
 // import { FaCubes, FaLaptopCode, FaPaintBrush, FaMobileAlt } from "react-icons/fa";
 // import { LuCode2 } from "react-icons/lu";
-import Sensor from "./Sensor";
 
 const Services = () => {
   // const [toggleState, setToggleState] = useState(0);
@@ -185,8 +184,6 @@ const Services = () => {
           </article>
         </div>
       </div> */}
-
-      <Sensor />
     </section>
   );
 };
