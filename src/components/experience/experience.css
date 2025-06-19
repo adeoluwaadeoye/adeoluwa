@@ -25,10 +25,17 @@
   
   .experience__category {
     background: var(--color-bg-variant);
-    padding: 2rem;
-    border-radius: 1.5rem;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
+  }
+
+  .experience__category:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
   }
   
   .experience__category h3 {
@@ -54,15 +61,16 @@
     font-size: 1rem;
     transition: var(--transition);
     line-height: 1.2;
-    min-height: 28px; /* Ensures equal height for single-line items */
+    min-height: 28px; 
   }
   
 
   .skill__icon {
     color: var(--color-primary);
-    font-size: 1.1rem;
-    flex-shrink: 0;       /* Prevents the icon from shrinking */
-    align-self: flex-start; /* Aligns icon with first line of text */
+    font-size: 1rem;
+    flex-shrink: 0;       
+    align-self: flex-start; 
+    margin-top: 6px;
   }
   
   
