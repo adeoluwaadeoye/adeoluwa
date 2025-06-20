@@ -37,7 +37,7 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--secondary-color);
+    background: var(--color-primary);
 }
 
 /* ================== ME =================== */
