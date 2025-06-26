@@ -1,13 +1,10 @@
 import React from "react";
 import "./about.css";
-// import {FaAward} from "react-icons/fa6";
-// import {LuUsers} from "react-icons/lu";
-// import {IoFolderOpenOutline} from "react-icons/io5";
-// import {FaCode} from "react-icons/fa6";
 
 const About = () => {
   return (
     <section id="about">
+      <div className="about__bckg__overlay"></div>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
@@ -22,32 +19,6 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          {/* <div className="about__cards">
-            <article className="about__card">
-              <FaCode className="about__icon" />
-              <h5>Specialization</h5>
-              <small>Frontend</small>
-            </article>
-
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-
-            <article className="about__card">
-              <LuUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>20+ Clients</small>
-            </article>
-
-            <article className="about__card">
-              <IoFolderOpenOutline className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed</small>
-            </article>
-          </div> */}
-
           <div className="about__wrapper">
             <h4>Front-End Developer & UX Designer</h4>
             <p>
@@ -58,7 +29,6 @@ const About = () => {
               foundation in UX principles and a keen eye for detail, he builds
               intuitive and accessible solutions tailored to diverse user needs.
             </p>
-
             <p>
               With over three years of experience, Adeoluwa has successfully
               contributed to various projects, ensuring quality and efficiency

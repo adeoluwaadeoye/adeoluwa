@@ -3,11 +3,11 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
-// import Services from "./components/services/Services";
+import CounterSection from "./components/countersection/CounterSection";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/Contact";
-// import Blog from "./components/Blog/Blog";
+import Blog from "./components/Blog/Blog";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      {/* <Services /> */}
       <Portfolio />
+      <CounterSection />
       <Testimonials />
       <Contact />
-      {/* <Blog /> */}
+      <Blog />
       <Footer />
     </>
   );

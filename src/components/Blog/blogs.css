@@ -22,6 +22,8 @@
     width: 70%;
     border-radius: 10px;
     transition: 0.5s;
+    display: block;
+    margin: 0 auto;
 }
 
 .blog__container .box .img:hover img {
