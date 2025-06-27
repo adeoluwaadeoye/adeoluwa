@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {FaArrowUpRightFromSquare} from "react-icons/fa6";
 import {LiaTimesSolid} from "react-icons/lia";
+import "./Blog.css"
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
@@ -55,9 +56,9 @@ const Card = (props) => {
                 href={props.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn__link cta"
+                className="btn btn-primary blog__btn"
               >
-                See more <FaArrowUpRightFromSquare />
+                See more
               </a>
 
               <button className="close-modal btn_shadow" onClick={toggleModal}>
