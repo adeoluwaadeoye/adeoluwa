@@ -1,29 +1,26 @@
 #about {
   position: relative;
   overflow: hidden;
-  padding: 80px 40px;
-  color: #fff;
+  background-attachment: fixed;
 }
 
 .about__bckg__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("../../assets/bg-logo-01-free-img.png") center no-repeat fixed;
+  background-image: url("../../assets/me_3.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
   opacity: 0.1;
-  background-color: rgba(0, 0, 0, 0.9);
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-  z-index: 0;
 }
 
 .about__bckg__overlay {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 .about__bckg__overlay {
