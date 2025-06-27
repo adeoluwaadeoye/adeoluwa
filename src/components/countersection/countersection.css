@@ -11,7 +11,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: url("../../assets/bg-logo-01-free-img.png") center no-repeat fixed;
+  background: url("../../assets/bg-logo-01-free-img.png") center/contain no-repeat fixed;
   background-color: rgba(0, 0, 0, 0.9);
   opacity: 0.1;
   z-index: 0;
@@ -46,10 +46,9 @@
 }
 
 .counter-section .btn {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
-
 /* RIGHT COUNTERS SECTION */
 .counter-right {
   flex: 1 1 45%;
@@ -104,11 +103,5 @@
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .counter__overlay {
-    background-size: cover;
   }
 }

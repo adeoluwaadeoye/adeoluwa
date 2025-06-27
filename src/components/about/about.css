@@ -205,9 +205,3 @@ h2 {
     margin-bottom: 1rem;
   }
 }
-
-@media screen and (max-width: 600px) {
-  .about__bckg__overlay {
-    background-size: cover;
-  }
-}
