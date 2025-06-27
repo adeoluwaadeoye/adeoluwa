@@ -3,7 +3,6 @@
   overflow: hidden;
   padding: 80px 40px;
   color: #fff;
-  overflow: hidden;
 }
 
 .about__bckg__overlay {
@@ -12,7 +11,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: url("../../assets/bg-logo-01-free-img.png") center/contain no-repeat fixed;
+  background: url("../../assets/bg-logo-01-free-img.png") center no-repeat fixed;
   opacity: 0.1;
   background-color: rgba(0, 0, 0, 0.9);
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -207,9 +206,8 @@ h2 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .about__bckg__overlay {
-    background-attachment: none;
-    background-size: cover; /* Optional: looks better for mobile */
+    background-position: center center; /* Ensures image stays centered */
   }
 }
