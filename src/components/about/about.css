@@ -3,6 +3,7 @@
   overflow: hidden;
   padding: 80px 40px;
   color: #fff;
+  overflow: hidden;
 }
 
 .about__bckg__overlay {
@@ -203,5 +204,12 @@ h2 {
 
   .about__content a {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__bckg__overlay {
+    background-attachment: none;
+    background-size: cover; /* Optional: looks better for mobile */
   }
 }
