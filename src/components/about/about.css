@@ -1,26 +1,6 @@
 #about {
   position: relative;
   overflow: hidden;
-  background-attachment: fixed;
-}
-
-.about__bckg__overlay {
-  background-image: url("../../assets/bg-logo-01-free-img.png");
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #fff;
-  opacity: 0.1;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-}
-
-.about__bckg__overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
 }
 
 .about__bckg__overlay {

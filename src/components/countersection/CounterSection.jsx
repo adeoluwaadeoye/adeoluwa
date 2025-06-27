@@ -5,23 +5,22 @@ import "./countersection.css";
 
 const CounterSection = () => {
   const counters = [
-    { count: 50, label: "Projects Completed" },
-    { count: 30, label: "Happy Clients" },
+    { count: 50, label: "Project" },
+    { count: 30, label: "Clients served" },
     { count: 5, label: "Years of Experience" },
-    { count: 15, label: "Tech Stacks Used" },
+    { count: 15, label: "Technology Stacks Used" },
   ];
 
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.4, // Adjust this as needed
+    threshold: 0.4,
   });
 
   return (
     <section className="counter-section" ref={ref}>
-      <div className="counter-overlay"></div>
       <h5>Crafting Code with Vision</h5>
       <h2>My Journey</h2>
-      <div className="counter-wrapper">
+      <div className="counter-wrapper container">
         <div className="counter-left">
           <p className="counter-description">
             My career began with a curiosity for how beautiful, functional websites are built. Over the years, I’ve grown into a frontend developer who blends design thinking with clean, maintainable code.
@@ -40,7 +39,7 @@ const CounterSection = () => {
             {counters.map((item, index) => (
               <li key={index} className="counter-item">
                 <h3 className="counter-number">
-                  {inView && <CountUp end={item.count} duration={6} />}
+                  {inView && <CountUp end={item.count} duration={6} suffix="+" />}
                 </h3>
                 <p className="counter-label">{item.label}</p>
               </li>

@@ -1,40 +1,16 @@
-.counter-section {
-  position: relative;
-  padding: 80px 40px;
-  color: #fff;
-  overflow: hidden;
-}
-
-.counter-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("../../assets/bg-logo-01-free-img.png") center/contain no-repeat fixed;
-  background-color: rgba(0, 0, 0, 0.9);
-  opacity: 0.1;
-  z-index: 0;
-}
-
 .counter-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 60px;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 /* LEFT TEXT SECTION */
 .counter-left {
-  flex: 1 1 45%;
+  flex: 1 1 40%;
 }
 
 .counter-title {
-  font-weight: 500;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -46,14 +22,15 @@
 }
 
 .counter-section .btn {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
+
 /* RIGHT COUNTERS SECTION */
 .counter-right {
-  flex: 1 1 45%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  height: 100%;
 }
 
 .counter-list {
@@ -71,11 +48,10 @@
 }
 
 .counter-number {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 2.5rem;
   color: var(--color-light);
-  font-family: 'pacifico', cursive;
   margin-bottom: 10px;
+
 }
 
 .counter-label {
@@ -85,14 +61,15 @@
 }
 
 /* RESPONSIVE */
-@media (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
   .counter-wrapper {
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
   .counter-left,
   .counter-right {
-    flex: 1 1 100%;
+    width: 100%;
   }
 
   .counter-list {
@@ -100,8 +77,59 @@
   }
 
   .counter-item {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .counter-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .counter-description {
+    text-align: center;
+  }
+
+  .counter-item {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
+  }
+
+  .counter-number {
+    font-size: 2rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .counter-wrapper {
+    padding: 0 20px;
+  }
+
+  .counter-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+  }
+
+  .counter-item {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .counter-number {
+    font-size: 1.8rem;
+  }
+
+  .counter-label {
+    font-size: 0.95rem;
+  }
+
+  .counter-section .btn {
+    margin-top: 20px;
   }
 }
