@@ -8,6 +8,7 @@
 /* LEFT TEXT SECTION */
 .counter-left {
   flex: 1 1 40%;
+  text-align: justify;
 }
 
 .counter-title {
