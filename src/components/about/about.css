@@ -206,8 +206,9 @@ h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .about__bckg__overlay {
+    background-attachment: scroll;
     background-position: center center; /* Ensures image stays centered */
   }
 }
