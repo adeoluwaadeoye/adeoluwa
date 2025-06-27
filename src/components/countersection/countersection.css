@@ -46,9 +46,10 @@
 }
 
 .counter-section .btn {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
+
 /* RIGHT COUNTERS SECTION */
 .counter-right {
   flex: 1 1 45%;
@@ -105,9 +106,11 @@
     margin: 0 auto;
   }
 }
- @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
   .counter__overlay {
     background-attachment: none;
-    background-size: cover; /* Optional: looks better for mobile */
+    background-size: cover;
+    background-position: center center;
   }
 }
