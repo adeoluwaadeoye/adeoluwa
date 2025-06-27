@@ -109,8 +109,6 @@
 
 @media screen and (max-width: 600px) {
   .counter__overlay {
-    background-attachment: none;
     background-size: cover;
-    background-position: center center;
   }
 }

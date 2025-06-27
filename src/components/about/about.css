@@ -208,8 +208,6 @@ h2 {
 
 @media screen and (max-width: 600px) {
   .about__bckg__overlay {
-    background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
   }
 }
