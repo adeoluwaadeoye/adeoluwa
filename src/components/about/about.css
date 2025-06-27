@@ -10,7 +10,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: url("../../assets/me_3.png") center/cover no-repeat fixed;
+  background: url("../../assets/me.png") center/cover no-repeat fixed;
   opacity: 0.1;
   background-color: rgba(0, 0, 0, 0.9);
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
