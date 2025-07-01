@@ -114,7 +114,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://crystalshopdewo.netlify.app/"
+              href="https://crystalshopdemo.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
