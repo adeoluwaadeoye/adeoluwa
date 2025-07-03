@@ -18,6 +18,7 @@ const CounterSection = () => {
 
   return (
     <section className="counter-section" ref={ref}>
+      <div className="counter-overlay"></div>
       <h5>Crafting Code with Vision</h5>
       <h2>My Journey</h2>
       <div className="counter-wrapper container">
