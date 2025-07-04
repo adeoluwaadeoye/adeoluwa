@@ -20,6 +20,7 @@ const CounterSection = () => {
     <section className="counter-section" ref={ref}>
       <h5>Crafting Code with Vision</h5>
       <h2>My Journey</h2>
+      <div className="counter-overlay"></div>
       <div className="counter-wrapper container">
         <div className="counter-left">
           <p className="counter-description">
