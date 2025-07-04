@@ -159,3 +159,28 @@
     margin-top: 20px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .counter-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/bg-logo-01-free-img.png) center center / cover no-repeat scroll;
+    z-index: 0;
+    opacity: 0.08;
+    pointer-events: none;
+    background-attachment: scroll;
+  }
+
+  .counter-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .counter-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+}
