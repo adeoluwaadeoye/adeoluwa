@@ -74,7 +74,7 @@ const Portfolio = () => {
               className="img"
             />
           </div>
-          <h3>CrystalPay</h3>
+          <h3> BuildTek</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/adeoluwaadeoye/saotech"
