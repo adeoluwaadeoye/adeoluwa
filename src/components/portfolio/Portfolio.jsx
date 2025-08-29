@@ -45,10 +45,10 @@ const Portfolio = () => {
               className="img"
             />
           </div>
-          <h3>Brainwave</h3>
+          <h3>Zyrotech</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/adeoluwaadeoye/brainwave"
+              href="https://github.com/adeoluwaadeoye/zyrotech"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -56,7 +56,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://brainywave.netlify.app/"
+              href="https://zyrotech.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -77,7 +77,7 @@ const Portfolio = () => {
           <h3>CrystalPay</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/adeoluwaadeoye/CrystalPay"
+              href="https://github.com/adeoluwaadeoye/saotech"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -85,7 +85,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://crystalpay.netlify.app"
+              href="https://saotech.netlify.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

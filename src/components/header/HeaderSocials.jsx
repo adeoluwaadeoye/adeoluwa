@@ -21,7 +21,7 @@ const HeaderSocial = () => {
         <FaGithub />
       </a>
       <a
-        href="https://www.tiktok.com/@codewhirl?_t=8jNhBHfA52L&_r=1"
+        href="https://www.tiktok.com/@adeoluwa_codes?_t=ZS-8zHMGRglTO5&_r=1"
         target="_blank"
         rel="noreferrer"
       >
