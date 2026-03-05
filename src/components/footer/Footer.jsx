@@ -52,7 +52,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.twitter.com/adeoluwaadeoye7"
+          href="https://x.com/adedadb?s=21"
           target="_blank"
           rel="noreferrer"
         >
