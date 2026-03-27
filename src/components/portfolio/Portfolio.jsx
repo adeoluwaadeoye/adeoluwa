@@ -11,35 +11,6 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio1.png")}
-              alt="my_project"
-              className="img"
-            />
-          </div>
-          <h3>TastyTopz</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/adeoluwaadeoye/fudo"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://tastytopz.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Link
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
               src={require("../../assets/portfolio2.png")}
               alt="my_project"
               className="img"
@@ -65,6 +36,36 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img
+              src={require("../../assets/portfolio1.jpg")}
+              alt="my_project"
+              className="img"
+            />
+          </div>
+          <h3>TastyTopz</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/adeoluwaadeoye/honeyland"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://honeylandcda.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Link
+            </a>
+          </div>
+        </article>
+
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
