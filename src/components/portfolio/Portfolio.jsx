@@ -45,7 +45,7 @@ const Portfolio = () => {
               className="img"
             />
           </div>
-          <h3>TastyTopz</h3>
+          <h3>Honeyland CDA</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/adeoluwaadeoye/honeyland"
