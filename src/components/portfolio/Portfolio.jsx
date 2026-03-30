@@ -128,15 +128,15 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img
-              src={require("../../assets/portfolio6.png")}
+              src={require("../../assets/portfolio6.jpg")}
               alt="my_project"
               className="img"
             />
           </div>
-          <h3>CraveWave</h3>
+          <h3>CryptoX</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/adeoluwaadeoye/CraveWave"
+              href="https://github.com/adeoluwaadeoye/CryptoX"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -144,7 +144,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://cravewave.netlify.app/"
+              href="https://mycryptox.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
