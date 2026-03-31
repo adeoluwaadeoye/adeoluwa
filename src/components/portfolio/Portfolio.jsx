@@ -144,7 +144,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://mycryptox.vercel.app/"
+              href="https://mycryptox.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
